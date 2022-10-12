@@ -45,7 +45,7 @@ namespace ReadWriteExcel
             }
 
             String tacGiaTruong = excelRange.Cells[7, 11].Value2.ToString();
-            //Console.Write(tacGiaTruonn);
+            //Console.Write(tacGiaTruong);
 
             for (int i = 7; i <= rowCount; i++)
             {
